@@ -9,8 +9,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-// import '../src/assets/js/jquery';
-// import '../src/assets/js/vanillajs';
+// import '../src/assets/js/vanilla';
 
 function App() {
   return (
