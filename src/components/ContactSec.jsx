@@ -8,7 +8,7 @@ function ContactSec() {
         <section className='contact-section'>
             <h1 className='sec-info'>Contact</h1>
 
-            <h3 className="text-primary text-center">Have You Any Question?</h3>
+            <h3 className="text-custom-color text-center">Have You Any Question?</h3>
             <h5 className="text-center">I AM AT YOUR SERVICES</h5>
             <div className="row my-5">
                 <div className="col-md-3 text-center">
@@ -32,7 +32,7 @@ function ContactSec() {
                     <p className='fs-5 fw-light'>Nigeria</p>
                 </div>
             </div>
-            <h3 className="text-primary text-center">SEND ME A MAIL</h3>
+            <h3 className="text-custom-color text-center">SEND ME A MAIL</h3>
             <h5 className="text-center mb-5">I AM VERY RESPONSIVE TO MESSAGES</h5>
 
             <div className="form">
@@ -57,7 +57,7 @@ function ContactSec() {
                         <label htmlFor="message">Message</label>
                     </div>
 
-                    <button type="submit" className="btn btn-primary fs-4">Send Message</button>
+                    <button type="submit" className="btn btn-custom-color fs-4">Send Message</button>
                 </form>
             </div>
         </section>

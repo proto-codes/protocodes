@@ -20,7 +20,7 @@ function Contact() {
       <div className="container-fluid">          
         <div className="row">
           <div className="nav-container col-md-3 vh-100 bg-body z-3" style={{left: left}}>
-            <Nav contactActive='active' closeNav={handleClose} />
+            <Nav contactActive='btn-custom-color active' closeNav={handleClose} />
           </div>
           <div className="col-md-9 vh-100 overflow-auto">
             <div className="w-100 border-bottom bg-body d-block d-md-none position-sticky top-0 p-2 z-2">

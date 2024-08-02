@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from '../components/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 function NotFound() {
   const [left, setLeft] =  useState('-100%');
@@ -29,7 +30,7 @@ function NotFound() {
                 <h1 className='fw-bolder display-1'>404</h1>
                 <h4>Sorry we couldn't find the page.</h4>
                 <p>But don't worry, you can find plenty of other things on our hompage</p>
-                <a href='/' className='btn btn-primary'>Back to homepage</a>
+                <Link to='/' className='btn btn-custom-color'>Back to homepage</Link>
               </div>
             </section>
           </div>

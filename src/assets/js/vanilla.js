@@ -1,4 +1,4 @@
-const typingEffect = document.querySelectorAll('.typingEffect');
+const typingEffect = document.querySelector('.typingEffect');
 typingEffect.innerHTML = "";
 const text = "Web Developer.";
 let index = 0;

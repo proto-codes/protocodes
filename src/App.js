@@ -1,33 +1,37 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import NotFound from './pages/NotFound';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-// import '../src/assets/js/vanilla';
+import ScreenLoader from './components/ScreenLoader';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
 library.add(fas);
 
+// Lazily load your page components
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Services = lazy(() => import('./pages/Services'));
+const Portfolio = lazy(() => import('./pages/Portfolio'));
+const Contact = lazy(() => import('./pages/Contact'));
+const NotFound = lazy(() => import('./pages/NotFound'));
+
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route index element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/services' element={<Services />} />
-      <Route path='/portfolio' element={<Portfolio />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='*' element={<NotFound />} />
-    </Routes>
+      <Suspense fallback={<ScreenLoader />}>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;

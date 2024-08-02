@@ -15,16 +15,16 @@ function PortfolioSec(props) {
             <h3 className='text-center mb-4'>My Past Project:</h3>
             <div className="row">
                 <div className="col-md-4">
-                    <img src={GIGM} alt="Portfolio" className='w-100 mb-3 border-5 border rounded' />
-                    <img src={netflix} alt="Portfolio" className='w-100 mb-3 border-5 border rounded' />
+                    <img src={GIGM} alt="Portfolio" className='past-project w-100 mb-3 border-5 border rounded' />
+                    <img src={netflix} alt="Portfolio" className='past-project w-100 mb-3 border-5 border rounded' />
                 </div>
                 <div className="col-md-4">
-                    <img src={login} alt="Portfolio" className='w-100 mb-3 border-5 border rounded' />
-                    <img src={web} alt="Portfolio" className='w-100 mb-3 border-5 border rounded' />
+                    <img src={login} alt="Portfolio" className='past-project w-100 mb-3 border-5 border rounded' />
+                    <img src={web} alt="Portfolio" className='past-project w-100 mb-3 border-5 border rounded' />
                 </div>
                 <div className="col-md-4">
-                    <img src={policify} alt="Portfolio" className='w-100 mb-3 border-5 border rounded' />
-                    <img src={transport} alt="Portfolio" className='w-100 mb-3 border-5 border rounded' />
+                    <img src={policify} alt="Portfolio" className='past-project w-100 mb-3 border-5 border rounded' />
+                    <img src={transport} alt="Portfolio" className='past-project w-100 mb-3 border-5 border rounded' />
                 </div>
             </div>
         </section>
