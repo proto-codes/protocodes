@@ -1,11 +1,9 @@
 import React from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-library.add(fas);
-
 function AboutSec(props) {
+    const cvPreview = require('../assets/img/CV_preview.pdf');
+
   return (
     <div>
         <section className={'about-section ' + props.borderBottom}>
@@ -20,7 +18,7 @@ function AboutSec(props) {
                     <p className='fs-5'>Complexion: <span>Fair</span></p>
                     <p className='fs-5'>Mobile: <span>+234 913 510 4681</span></p>
                     <p className='fs-5'>Mail: <span>elekwachitochukwu117@gmail.com</span></p>    
-                    <p className='fs-5'>Website: <span>https://proto-codes.github.io/portfolio/</span></p>
+                    <p className='fs-5'>Website: <span>https://protocodes.vercel.app/</span></p>
                 </div>
                 <div className='col-md-6'>
                     <p className='fs-5'>Gender: <span>Male</span></p>
@@ -65,55 +63,55 @@ function AboutSec(props) {
             </div>
 
             <div className="d-flex gap-2 my-4">
-                <a href="CV_preview.pdf" download="CV_preview" className="btn btn-primary fs-4">Download CV</a>
+                <a href={cvPreview} download="CV_preview" className="btn btn-primary fs-4">Download CV</a>
                 <a href="/contact" className="btn btn-primary fs-4">Hire Me</a>
             </div>
             
             <div className="row">
                 <div className="col-md-6">
                     <h3>Education</h3>
-                    <div className="border rounded p-3">
-                        <div className="timeline_items">
-                            <div className="bg-primary rounded-circle" style={{width: '1rem', height: '1rem',}}></div>
+                    <div className="position-relative border rounded p-3 ps-5">
+                        <div className="css-line">
+                            <div className="circle-dot bg-primary rounded-circle"></div>
                             <span className="small"><FontAwesomeIcon icon='calendar-alt' /> 2017 - 2023</span>
                             <h5 className="my-2">Studied Sciences at ISS</h5>
-                            <p className="timeline_text">Successfully obtained my GCE certificate at International Secondary School, Uturu Abia State, marking a pivotal step in my educational journey.
+                            <p className="timeline_text">Obtained my SSCE certificate at International Secondary School, Uturu Abia State, marking a pivotal step in my educational journey.
                             </p>
                         </div>
-                        <div className="timeline_items">
-                            <div className="bg-primary rounded-circle" style={{width: '1rem', height: '1rem',}}></div>
+                        <div className="css-line">
+                            <div className="circle-dot bg-primary rounded-circle"></div>
                             <span className="small"><FontAwesomeIcon icon='calendar-alt' /> 2023 - 2024</span>
                             <h5 className="my-2">Studied Web Development at ATH</h5>
                             <p className="timeline_text">Skilled in Web Development from Abia Tech Hub, excel in shaping digital realms and crafting impactful digital experiences. Passionate about unlocking endless possibilities in the virtual universe.</p>
                         </div>
-                        <div className="timeline_items">
-                            <div className="bg-primary rounded-circle" style={{width: '1rem', height: '1rem',}}></div>
+                        <div className="css-line">
+                            <div className="circle-dot bg-primary rounded-circle"></div>
                             <span className="small"><FontAwesomeIcon icon='calendar-alt' /> 2024</span>
-                            <h5 className="my-2">Obtained a Certificate in Web development</h5>
+                            <h5 className="my-2">Certified in Web development</h5>
                             <p className="timeline_text">Certified in Web Development from Abia Tech Hub, equipped to innovate and create impactful digital solutions. Ready to revolutionize the online landscape with cutting-edge expertise.</p>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-6">
                     <h3>Expereince</h3>
-                    <div className="border rounded p-3">
-                        <div className="timeline_items">
-                            <div className="bg-primary rounded-circle" style={{width: '1rem', height: '1rem',}}></div>
+                    <div className="position-relative border rounded p-3 ps-5">
+                        <div className="css-line">
+                            <div className="circle-dot bg-primary rounded-circle"></div>
                             <span className="small"><FontAwesomeIcon icon='calendar-alt' /> 2023 - 2024</span>
                             <h5 className="my-2">Full Stack Web Developer</h5>
                             <p className="timeline_text">Experienced in full-stack web development, from front-end finesse to back-end mastery. Innovating projects with comprehensive technical expertise.</p>
                         </div>
-                        <div className="timeline_items">
-                            <div className="bg-primary rounded-circle" style={{width: '1rem', height: '1rem',}}></div>
+                        <div className="css-line">
+                            <div className="circle-dot bg-primary rounded-circle"></div>
                             <span className="small"><FontAwesomeIcon icon='calendar-alt' /> 2023 - 2024</span>
                             <h5 className="my-2">Skilled in Front End Development</h5>
                             <p className="timeline_text">Proficient in front-end web development, expertise in HTML, CSS, and JavaScript. Skillfully blending design finesse with coding wizardry to sculpt captivating user interfaces and elevate digital interactions</p>
                         </div>
-                        <div className="timeline_items">
-                            <div className="bg-primary rounded-circle" style={{width: '1rem', height: '1rem',}}></div>
+                        <div className="css-line">
+                            <div className="circle-dot bg-primary rounded-circle"></div>
                             <span className="small"><FontAwesomeIcon icon='calendar-alt' /> 2023 - 2024</span>
                             <h5 className="my-2">Skilled in Back End Development</h5>
-                            <p className="timeline_text">Proficient in PHP and MySQL for back-end web development. Creating robust digital infrastructures for seamless and secure online experiences.</p>
+                            <p className="timeline_text">Proficient in PHP and Python for back-end web development. Creating robust digital infrastructures for seamless and secure online experiences.</p>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
         <div className="text-center my-3">
-            <p className='fs-5'>Copyright &copy; 2021 - {currentYear} Protocodes All Rights Researved.</p>
+            <p>Copyright &copy; 2021 - {currentYear} Protocodes All Rights Reserved.</p>
         </div>
     </div>
   )

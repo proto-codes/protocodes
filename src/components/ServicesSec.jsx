@@ -1,9 +1,5 @@
 import React from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-library.add(fas);
 
 function ServicesSec(props) {
   return (
@@ -33,7 +29,7 @@ function ServicesSec(props) {
                         <FontAwesomeIcon className='fs-3 btn btn-primary p-2' icon="code" />
                     </div>
                     <h4>Back End Development</h4>
-                    <p className='fw-light'>Managing the server-side of websites, handling databases, server interactions, and ensuring the functionality and performance of the site through language like PHP/MySQL, etc.</p>
+                    <p className='fw-light'>Managing the server-side of websites, handling databases, server interactions, and ensuring the functionality and performance of the site through language like PHP and Python, etc.</p>
                 </div>
                 <div className="col text-center border rounded d-flex flex-column p-2 mb-2">
                     <div>

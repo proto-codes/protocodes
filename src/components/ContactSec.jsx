@@ -14,7 +14,7 @@ function ContactSec() {
                 <div className="col-md-3 text-center">
                     <FontAwesomeIcon className='fs-3' icon='phone' />
                     <h4>Call Us On:</h4>
-                    <p className='fs-5 fw-light'><a href="tel:+2349135104681" className='text-body'>+234 913 510 4681</a></p>
+                    <p className='fs-5 fw-light'><a href="tel:+2349135104681" className='text-body text-decoration-none'>+234 913 510 4681</a></p>
                 </div>
                 <div className="col-md-3 text-center">
                     <FontAwesomeIcon className='fs-3' icon='map-marked-alt' />
@@ -24,7 +24,7 @@ function ContactSec() {
                 <div className="col-md-3 text-center">
                     <FontAwesomeIcon className='fs-3' icon={faWhatsapp} />
                     <h4>WhatsApp:</h4>
-                    <p className='fs-5 fw-light'><a href="http://wa.me/2349013041098" className='text-body'>+234 901 304 1098</a></p>
+                    <p className='fs-5 fw-light'><a href="http://wa.me/2349013041098" className='text-body text-decoration-none'>+234 901 304 1098</a></p>
                 </div>
                 <div className="col-md-3 text-center">
                     <FontAwesomeIcon className='fs-3' icon='globe-africa' />
@@ -53,7 +53,7 @@ function ContactSec() {
                         <label htmlFor="subject">Subject</label>
                     </div>
                     <div className="form-floating mb-2">
-                        <textarea name="message" id="message" className='form-control' cols={30} rows={7} placeholder='Message' required></textarea>
+                        <textarea name="message" id="message" className='form-control h-auto' cols={30} rows={7} placeholder='Message' required></textarea>
                         <label htmlFor="message">Message</label>
                     </div>
 
