@@ -1,8 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function ContactSec() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+    const [status, setStatus] = useState('');
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        setIsSubmitting(true);
+
+        try {
+        const response = await axios.post('https://formspree.io/f/maygrjyl', {
+            name,
+            email,
+            subject,
+            message
+        }, {
+            headers: {
+            'Accept': 'application/json'
+            }
+        });
+
+        if (response.status === 200) {
+            setStatus('Success! Your message has been sent.');
+            setName('');
+            setEmail('');
+            setSubject('');
+            setMessage('');
+        } else {
+            setStatus('Oops! Something went wrong.');
+        }
+        } catch (error) {
+        setStatus('Oops! Something went wrong.');
+        } finally {
+        setIsSubmitting(false);
+        }
+    };
+  
   return (
     <div>
         <section className='contact-section'>
@@ -36,29 +76,31 @@ function ContactSec() {
             <h5 className="text-center mb-5">I AM VERY RESPONSIVE TO MESSAGES</h5>
 
             <div className="form">
-                <form action="https://formspree.io/f/maygrjyl" method="post">
+                <form onSubmit={handleSubmit}>
                     <div className="contact-flex-box mb-2">
                         <div className="form-floating w-100">
-                            <input type="text" id='name' className='form-control' name="name" autocomplete="name" placeholder='Name' required />
+                            <input type="text" id='name' className='form-control' name="name" autoComplete='name' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)} required />
                             <label htmlFor="name">Name</label>
                         </div>
                         <div className="form-floating w-100">
-                            <input type="email" id="email" className='form-control text-lowercase' name="email" autocomplete="email" placeholder="Email" required />
+                            <input type="email" id="email" className='form-control text-lowercase' name="email" autoComplete="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                             <label htmlFor="email">Email</label>
                         </div>
                     </div>
                     
                     <div className="form-floating mb-2">
-                        <input type="text" id="subject" className='form-control' name="subject" placeholder="Subject" required />
+                        <input type="text" id="subject" className='form-control' name="subject" placeholder="Subject" value={subject} onChange={(e) => setSubject(e.target.value)} required />
                         <label htmlFor="subject">Subject</label>
                     </div>
                     <div className="form-floating mb-2">
-                        <textarea name="message" id="message" className='form-control h-auto' cols={30} rows={7} placeholder='Message' required></textarea>
+                        <textarea name="message" id="message" className='form-control h-auto' cols={30} rows={7} placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
                         <label htmlFor="message">Message</label>
                     </div>
-
-                    <button type="submit" className="btn btn-custom-color fs-4">Send Message</button>
+                    <button type="submit" className="btn btn-custom-color fs-4" disabled={isSubmitting}>
+                        {isSubmitting ? 'Sending...' : 'Send Message'}
+                    </button>
                 </form>
+                {status && <p>{status}</p>}
             </div>
         </section>
     </div>

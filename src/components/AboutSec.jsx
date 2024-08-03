@@ -69,7 +69,7 @@ function AboutSec(props) {
             </div>
             
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 mb-3">
                     <h3>Education</h3>
                     <div className="position-relative border rounded p-3 ps-5">
                         <div className="css-line">
