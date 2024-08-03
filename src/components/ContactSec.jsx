@@ -100,7 +100,7 @@ function ContactSec() {
                         {isSubmitting ? 'Sending...' : 'Send Message'}
                     </button>
                 </form>
-                {status && <p>{status}</p>}
+                {status && <p className='fs-5'>{status}</p>}
             </div>
         </section>
     </div>
