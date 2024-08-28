@@ -34,31 +34,49 @@ function AboutSec(props) {
                 <div className="mb-2">
                     <h5>React.js</h5>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '95%'}}>95%</div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
                     </div>
                 </div>
                 <div className="mb-2">
                     <h5>Vue.js</h5>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '93%'}}>93%</div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
                     </div>
                 </div>
                 <div className="mb-2">
                     <h5>Node.js</h5>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '95%'}}>95%</div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
+                    </div>
+                </div>
+                <div className="mb-2">
+                    <h5>JQuery</h5>
+                    <div className="progress">
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
                     </div>
                 </div>
                 <div className="mb-2">
                     <h5>Laravel</h5>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '91%'}}>91%</div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '98%'}}>98%</div>
                     </div>
                 </div>
                 <div className="mb-2">
                     <h5>Django</h5>
                     <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '76%'}}>76%</div>
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '91%'}}>91%</div>
+                    </div>
+                </div>
+                <div className="mb-2">
+                    <h5>Bootstrap</h5>
+                    <div className="progress">
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
+                    </div>
+                </div>
+                <div className="mb-2">
+                    <h5>Git</h5>
+                    <div className="progress">
+                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
                     </div>
                 </div>
             </div>

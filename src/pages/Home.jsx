@@ -38,7 +38,7 @@ function Home() {
                   <h2>Hello, my name is <span className='text-custom-color fw-bold fs-1 amita-font'>Tochukwu Elekwachi</span></h2>
                   <div className="text-custom-color fs-1">
                     <TypingEffect
-                      text={["Welcome to my site!", "I am a Web Developer!"]}
+                      text={["Welcome to my site!", "I am a Web Developer!", "I am a Graphic Designer!"]}
                       speed={100} // Typing speed in milliseconds
                       eraseDelay={1000} // Delay before starting to erase
                       eraseSpeed={50} // Erase speed in milliseconds
