@@ -5,8 +5,8 @@ import { faCog, faSun, faMoon, faAdjust } from '@fortawesome/free-solid-svg-icon
 const ThemeToggler = () => {
   const getStoredTheme = () => localStorage.getItem('theme');
   const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
-  const getStoredColor = () => localStorage.getItem('custom-color');
-  const setStoredColor = (color) => localStorage.setItem('custom-color', color);
+  const getStoredColor = () => localStorage.getItem('customColor');
+  const setStoredColor = (color) => localStorage.setItem('customColor', color);
 
   const getPreferredTheme = useCallback(() => {
     const storedTheme = getStoredTheme();
