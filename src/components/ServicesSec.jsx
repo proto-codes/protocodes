@@ -29,7 +29,7 @@ function ServicesSec(props) {
                         <FontAwesomeIcon className='services-icon fs-3 btn text-custom-color p-2' icon="code" />
                     </div>
                     <h4>Back End Development</h4>
-                    <p className='fw-light'>Managing the server-side of websites, handling databases, server interactions, and ensuring the functionality and performance of the site through language like PHP and Python, etc.</p>
+                    <p className='fw-light'>Managing the server-side of websites, handling databases, server interactions, and ensuring the functionality and performance of the site through language like PHP, Python and Nodejs</p>
                 </div>
                 <div className="services-container col text-center border rounded d-flex flex-column p-2 mb-2">
                     <div>
@@ -45,7 +45,7 @@ function ServicesSec(props) {
                         <FontAwesomeIcon className='services-icon fs-3 btn text-custom-color p-2' icon="palette" />
                     </div>
                     <h4>Front End Development</h4>
-                    <p className='fw-light'> Crafting the visible parts of a website that users interact with directly, involving HTML, CSS and JavaScript to build responsive and user-friendly interfaces.</p>
+                    <p className='fw-light'> Crafting the visible parts of a website that users interact with directly, involving React, Vue, Bootstrap, Tailwind and etc. to build responsive and user-friendly interfaces.</p>
                 </div>
                 <div className="services-container col text-center border rounded d-flex flex-column p-2 mb-2">
                     <div>
