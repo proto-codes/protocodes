@@ -10,11 +10,11 @@ function Nav(props) {
             <div className='nav-box vh-100 position-relative d-flex flex-column justify-content-center'>
                 <div className='position-absolute top-0 start-0 end-0 fs-2 mt-4'>
                     <div className="d-flex justify-content-end d-md-none">
-                        <button className='btn btn-close border mb-3 fs-4' onClick={props.closeNav}></button>
+                        <button className='btn btn-close border mb-3 fs-5' onClick={props.closeNav}></button>
                     </div>
                     <div className="position-relative text-center">
                         <a href='/' title="Logo" className='site-logo fs-2 mt-5 text-auto text-decoration-none'>
-                            <span className='amita-font fs-1'>P</span>rotocodes
+                            <span className='amita-font display-5'>P</span>rotocodes
                         </a>
                     </div>
                 </div>

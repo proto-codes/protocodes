@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function AboutSec(props) {
-    const Resume = require('../assets/img/CV_preview.pdf');
+    const Resume = require('../assets/img/Resume.pdf');
 
   return (
     <div>

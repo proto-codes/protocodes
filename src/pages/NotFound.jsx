@@ -23,7 +23,7 @@ function NotFound() {
           </div>
           <div className="col-md-9 vh-100 overflow-auto">
             <div className="w-100 border-bottom bg-body d-block d-md-none position-sticky top-0 p-2 z-2">
-              <button className='btn border' onClick={handleOpen}><FontAwesomeIcon icon='bars' /></button>
+              <button className='btn border fs-4' onClick={handleOpen}><FontAwesomeIcon icon='bars' /></button>
             </div>
             <section className='d-flex align-items-center justify-content-center'>
               <div className='text-center'>
