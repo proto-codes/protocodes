@@ -30,19 +30,13 @@ function AboutSec(props) {
 
             <div>
                 <div className="mb-2">
-                    <h5>React.js</h5>
+                    <h5>JavaScript</h5>
                     <div className="progress">
                         <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
                     </div>
                 </div>
                 <div className="mb-2">
                     <h5>Node.js</h5>
-                    <div className="progress">
-                        <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
-                    </div>
-                </div>
-                <div className="mb-2">
-                    <h5>JavaScript</h5>
                     <div className="progress">
                         <div className="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom-color" style={{width: '100%'}}>100%</div>
                     </div>
