@@ -25,14 +25,14 @@ function Home() {
     <div>
       <div className="bg-color container-fluid">          
         <div className="row">
-          <div className="nav-container col-md-3 vh-100 z-3" style={{left: left}}>
+          <div className="bg-color nav-container col-md-3 vh-100 z-3" style={{left: left}}>
             <Nav homeActive='btn-custom-color active' closeNav={handleClose} />
           </div>
           <div className="bg-sec col-md-9 vh-100 overflow-auto">
-            <div className="w-100 border-bottom d-block d-md-none position-sticky top-0 p-2 z-2">
+            <div className="bg-sec w-100 border-bottom d-block d-md-none position-sticky top-0 p-2 z-2">
               <button className='btn border fs-4' onClick={handleOpen}><FontAwesomeIcon icon='bars' /></button>
             </div>
-            <section className='px-md-2 d-flex align-items-center justify-content-center border-bottom'>
+            <section className='px-md-2 d-flex justify-content-center border-bottom'>
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <h2>Hello, my name is <span className='text-custom-color fw-bold fs-1 amita-font'>Tochukwu Elekwachi</span></h2>
@@ -58,7 +58,7 @@ function Home() {
                     <img
                       src={profileImg}
                       alt="Tochukwu Elekwachi"
-                      className="portfolio-img w-75 rounded-circle shadow-lg"
+                      className="w-100 rounded-circle shadow-lg"
                     />
                   </div>
                 </div>

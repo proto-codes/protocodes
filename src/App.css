@@ -18,6 +18,7 @@
 :root[data-bs-theme='dark'] {
     --text-auto: #ffffff;
     --bg-color: #000000;
+    --bg-sec: #000000;
 }
 
 :root[data-custom-color='custom-color-1'] {

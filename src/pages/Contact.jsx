@@ -19,11 +19,11 @@ function Contact() {
     <div>
       <div className="bg-color container-fluid">          
         <div className="row">
-          <div className="nav-container col-md-3 vh-100 z-3" style={{left: left}}>
+          <div className="bg-color nav-container col-md-3 vh-100 z-3" style={{left: left}}>
             <Nav contactActive='btn-custom-color active' closeNav={handleClose} />
           </div>
           <div className="bg-sec col-md-9 vh-100 overflow-auto">
-            <div className="w-100 border-bottom d-block d-md-none position-sticky top-0 p-2 z-2">
+            <div className="bg-sec w-100 border-bottom d-block d-md-none position-sticky top-0 p-2 z-2">
               <button className='btn border fs-4' onClick={handleOpen}><FontAwesomeIcon icon='bars' /></button>
             </div>
             <ContactSec />
