@@ -33,7 +33,7 @@ function PortfolioSec(props) {
           {/* Column 2 */}
           <div className="col-md-4">
             <div className="mb-3">
-              <a href="https://afflandportglobalestatesltd.vercel.app/properties" target="_blank" rel="noopener noreferrer">
+              <a href="https://app.afflandportglobalestatesltd.com/" target="_blank" rel="noopener noreferrer">
                 <img src={affDashboard} alt="Property Management System" className='past-project w-100 border-5 border rounded' />
               </a>
               <p className="text-center mt-2">Property Management System</p>
