@@ -31,7 +31,7 @@ function AboutSec(props) {
             <p className='fs-5'>Languages: <span>English & Igbo</span></p>
             <p className='fs-5'>Mobile: <span>+234 901 304 1098</span></p>
             <p className='fs-5'>Mail: <span>elekwachitochukwu117@gmail.com</span></p>
-            <p className='fs-5'>Website: <span>https://protocodes.vercel.app/</span></p>
+            <p className='fs-5'>Website: <span>https://protocodes.vercel.app</span></p>
           </div>
           <div className='col-md-6'>
             <p className='fs-5'>Gender: <span>Male</span></p>
