@@ -19,7 +19,7 @@ function Portfolio() {
     <div>
       <div className="bg-color container-fluid">          
         <div className="row">
-          <div className="bg-color nav-container col-md-3 vh-100 z-3" style={{left: left}}>
+          <div className="bg-sec nav-container col-md-3 vh-100 z-3" style={{left: left}}>
             <Nav portfolioActive='btn-custom-color active' closeNav={handleClose} />
           </div>
           <div className="bg-sec col-md-9 vh-100 overflow-auto">

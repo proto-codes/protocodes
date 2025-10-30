@@ -78,7 +78,7 @@ function ContactSec() {
             <div className="form">
                 <form onSubmit={handleSubmit}>
                     <div className="contact-flex-box mb-2">
-                        <div className="form-floating w-100">
+                        <div className="form-floating mb-2 w-100">
                             <input type="text" id='name' className='form-control' name="name" autoComplete='name' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)} required />
                             <label htmlFor="name">Name</label>
                         </div>
