@@ -64,17 +64,17 @@ const educationData = [
 const experienceData = [
   {
     icon: faBriefcase,
-    title: "Full Stack Developer",
+    title: "Full Stack Developer & Project Manager",
     time: "Present",
     description:
-      "Design and implement full-stack web applications, optimizing both frontend performance and backend logic. Collaborate with cross-functional teams to deliver secure, responsive, and maintainable systems using React, Node.js, and MongoDB.",
+      "Lead and develop full-stack web applications while managing project timelines, deliverables, and cross-functional teams. Ensure both frontend and backend systems are scalable, secure, and user-friendly.",
   },
   {
     icon: faBriefcase,
     title: "Software Developer",
     time: "Present",
     description:
-      "Build and deploy scalable software products using Laravel, Django, and Flask. Implement API-driven architectures and cloud integrations on AWS. Deliver solutions that balance performance, usability, and scalability.",
+      "Build and deploy scalable software products using Laravel, Django, and Flask. Implement API-driven architectures and cloud integrations on AWS, delivering solutions that balance performance, usability, and scalability.",
   },
 ];
 
@@ -90,20 +90,20 @@ function AboutSec({ borderBottom }) {
       <h2 className="intro-text">
         I’m{" "}
         <span className="fw-bold text-custom-color">Tochukwu Elekwachi</span>, a passionate{" "}
-        <span className="fw-bold text-custom-color">Software Developer</span>.
+        <span className="fw-bold text-custom-color">Software Developer & Project Manager</span>.
       </h2>
 
       <p className="fs-5 about-description">
-        I am a results-oriented <strong>Full Stack Software Developer</strong> dedicated to
+        I am a results-oriented <strong>Full Stack Software Developer and Project Manager</strong> dedicated to
         creating high-quality, scalable, and user-focused digital solutions. I specialize in
-        developing interactive web applications, crafting robust backend architectures, and ensuring
-        seamless integration between design and functionality.
+        developing interactive web applications, crafting robust backend architectures, and leading
+        teams to deliver projects on time and within scope.
         <br />
         <br />
-        I enjoy working in collaborative environments that foster innovation and problem-solving.
-        With a commitment to continuous learning, I actively explore emerging technologies to stay
-        ahead in the evolving tech landscape. Let’s collaborate to build solutions that make a
-        difference.
+        I thrive in collaborative environments, ensuring clear communication, efficient workflows, and
+        innovative problem-solving. I actively explore emerging technologies and modern project
+        management practices to drive success in every project. Let’s collaborate to build solutions
+        that make a real impact.
       </p>
 
       {/* ====================== Contact Details ====================== */}
