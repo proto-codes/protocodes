@@ -37,7 +37,7 @@ const skillsData = [
     skills: [
       { label: "Git, GitHub, GitLab", level: "100%" },
       { label: "REST APIs, Postman, Swagger", level: "95%" },
-      { label: "Docker & CI/CD (Basics)", level: "85%" },
+      { label: "Docker & CI/CD", level: "85%" },
     ],
   },
 ];
