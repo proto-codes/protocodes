@@ -14,7 +14,7 @@ function Nav(props) {
                     </div>
                     <div className="position-relative text-center">
                         <a href='/' title="Logo" className='site-logo fs-2 mt-5 text-auto text-decoration-none'>
-                            <span className='amita-font display-5'>P</span>rotocodes
+                            <span className='amita-font display-5'>K</span>yro
                         </a>
                     </div>
                 </div>
