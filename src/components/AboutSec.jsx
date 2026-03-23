@@ -115,8 +115,8 @@ function AboutSec({ borderBottom }) {
           <ContactDetail
             label="Portfolio"
             value={
-              <a href="https://protocodes.vercel.app" target="_blank" rel="noopener noreferrer">
-                protocodes.vercel.app
+              <a href="https://kyro-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
+                kyro-portfolio.vercel.app 
               </a>
             }
           />
